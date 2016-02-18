@@ -1,0 +1,22 @@
+This project is a framework to detect and recognize object in video or image. This project help me to practice the basic machine learning algorithm and do research on course project.
+
+Operation System: 
+Unbuntu and MacOS
+
+Language: 
+C++
+
+Library: 
+armadillo (for matrix operation such as SVD)
+Opencv (for video and image processing)
+CodeLib (a library written by myself to debug)
+
+Now we have 
+3 kind of Classifier: Neural Network, SVM and Adaboost.
+1 kind of feature: eigen-X generator and feature generator
+Some training toolkit.
+
+Use "DataCollector" to label and collect data from video.
+Use "MLApplication" to develope new application based on this framework.
+
+

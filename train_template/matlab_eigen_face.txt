@@ -1,0 +1,6 @@
+E = load ('eigen.dat');
+for i=1:10 subplot(2,5,i); imagesc(reshape(E(:,i),36,64)); end
+
+
+E = load ('palm_eigen/palm_eigen.dat');
+for i=1:10 subplot(2,5,i); imagesc(reshape(E(:,i),19,19)); title(['eigen ' int2str(i)]); end
