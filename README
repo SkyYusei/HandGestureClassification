@@ -1,22 +1,8 @@
-This project is a framework to detect and recognize object in video or image. This project help me to practice the basic machine learning algorithm and do research on course project.
+# HandGestureClassification
 
-Operation System: 
-Unbuntu and MacOS
+The course project for 18794 Pattern Recognition, which detects and recognizes simple hand gestures in video or image. 
 
-Language: 
-C++
-
-Library: 
-armadillo (for matrix operation such as SVD)
-Opencv (for video and image processing)
-CodeLib (a library written by myself to debug)
-
-Now we have 
-3 kind of Classifier: Neural Network, SVM and Adaboost.
-1 kind of feature: eigen-X generator and feature generator
-Some training toolkit.
-
-Use "DataCollector" to label and collect data from video.
-Use "MLApplication" to develope new application based on this framework.
+* Implemented in C++, an integrated hand gesture recognition system using SVM, Adaboost and Neural network as training model.
+* Achieved 81% accuracy on simple hand gestures with PCA/LDA feature.
 
 
